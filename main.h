@@ -28,6 +28,7 @@ extern char **environ;
  * @counter: lines counter
  * @_environ: environment variable
  * @pid: process ID of the shell
+ * Description: run and see
  */
 typedef struct data
 {
@@ -84,6 +85,7 @@ typedef struct r_var_list
  * struct builtin_s - Builtin struct for command args.
  * @name: The name of the command builtin i.e cd, exit, env
  * @f: data type pointer function.
+ * Description: run and see
  */
 typedef struct builtin_s
 {
