@@ -26,7 +26,7 @@ extern char **environ;
  * @args: tokens of the command line
  * @status: last status of the shell
  * @counter: lines counter
-* @_environ: environment variable
+ * @_environ: environment variable
  * @pid: process ID of the shell
  */
 typedef struct data
